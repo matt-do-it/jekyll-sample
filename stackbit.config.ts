@@ -5,5 +5,6 @@ export default defineStackbitConfig({
     "nodeVersion": "18",
     "ssgName": "custom",
     "contentSources": [],
+    "devCommand": "bundle exec jekyll serve --port {PORT}",
     "postInstallCommand": "npm i --no-save @stackbit/types"
 })
