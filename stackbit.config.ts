@@ -4,7 +4,7 @@ export default defineStackbitConfig({
     "nodeVersion": "18",
     "ssgName": "custom",
     "contentSources": [],
-    "devCommand": "bundle exec jekyll serve --port {PORT}",
+    "devCommand": "gem install jekyll bundler && bundle install && bundle exec jekyll serve --port {PORT}",
     experimental: {
     ssg: {
       name: "jekyll",
