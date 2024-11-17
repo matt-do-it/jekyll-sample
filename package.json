@@ -9,6 +9,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "@stackbit/cms-git": "^1.0.26",
     "@stackbit/types": "^2.1.8"
   }
 }
